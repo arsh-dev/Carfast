@@ -1,0 +1,80 @@
+*{font-family: 'Libre Baskerville', fantasy, serif;}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Libre Baskerville', fantasy, serif;
+	font-weight: bold;
+	background-color: grey;
+}
+
+#h11{
+	border-color: white;
+	border-radius: 15px;
+	background-color: white;
+	padding-top: 20px;
+	font-family: 'Libre Baskerville', fantasy, serif;
+	font-size: 3em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+	text-shadow: 5px 5px lightgrey;
+	width: 1200px;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	margin-left: 80px;
+	box-shadow: 7px 7px 8px grey;
+}
+
+.box{
+	border-radius: 20px;
+
+	margin-top: 330px;
+	width: 700px;
+	padding: 70px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	text-align: left;
+	border: 2px solid blue;
+	background-color: white;
+}
+
+.box input[type = "text"],.box input[type = "password"],.box input[type = "tel"],.box input[type = "radio"],.box input[type = "number"],.box input[type = "date"]{
+
+	border: 2px solid blue;
+	border-radius: 24px;
+	padding: 10px;
+	transition: all 0.5s;
+	text-align: center;
+}
+
+.box input[type = "text"]:hover,.box input[type = "password"]:hover,.box input[type = "tel"]:hover,.box input[type = "number"]:hover,.box input[type = "date"]:hover{
+	width: 300px;
+	transform: scale(1.1);
+	border-color: black;
+}
+.box input[type = "submit"]{
+	width: 500px;
+	height: 70px;
+
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 20px 50px;
+	outline: none;
+	background-color: lightgrey;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	font-size: 2em;
+	
+}
+.box input[type = "submit"]:hover{
+	background: #2ecc71;
+	width: 600px;
+	transform: scale(1.1);
+}
