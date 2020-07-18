@@ -1,0 +1,116 @@
+*{
+  background-color: #6e54ff;
+
+}
+h1{
+  border-color: white;
+  border-radius: 15px;
+  background-color: lightgrey;
+  color: white;
+  padding-top: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  text-shadow: 2px 2px black;
+  width: 90%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  box-shadow: 7px 7px 8px grey;
+  transition: all 1s;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  letter-spacing: 2px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 10px;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+width: 100%;
+color: #0829F5;
+font-family: monospace;
+color: white;
+font-size: 2vw;
+text-align: center;
+}
+th {
+background-color: #668DEE;
+color: black;
+text-shadow: 1px 1px white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.box{
+  width: 100%;
+ 
+  text-align: center;
+}
+
+.box input[type = "submit"]{
+  width: 50%;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 2vw;
+}
+.box input[type = "submit"]:hover{
+  background: black;
+  width: 40%;
+}
+
+
+a{
+  
+  width: 50%;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 2vw;
+  text-decoration: none;
+}
+a:hover{
+  background: black;
+  width: 40%;
+}
+
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to top, transparent, violet, transparent);
+  border-radius: 50px;
+}

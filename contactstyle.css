@@ -4,11 +4,41 @@
 	margin: 0 0.5rem;
   	animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
   	animation-duration: 1s; /* don't forget to set a duration! */
- 
 }
 body{
 	animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
   	animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#contact{
+	margin: 5px;
+	margin-right: 10%;
+	margin-left: 5%;	
+}
+.call, .email, .mainoffice, .citybranch{
+	
+	display: inline-block;
+	width: 80%;
+	border: 0px solid black;
+	border-style: inset;
+	margin: 20px;
+	margin-left: 40px;
+	font-size: 2.8vw;
+	padding: 10px;
+	font-weight: bold;
+	box-shadow: 8px 8px 8px 8px grey;
+	font-family: 'Libre Baskerville', fantasy, serif;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+#num, #mailid, #add{
+	font-size: 2.2vw;
+
+	color: purple;
+}
+.call:hover, .email:hover, .mainoffice:hover, .citybranch:hover{
+	transform: scale(1.1);
+	font-weight: bolder; 
 }
 h1{
   	border-color: white;
@@ -32,7 +62,6 @@ h1{
 	margin-left: 5%;
 	margin-right: 5%;
 	letter-spacing: 2px;
-	
 	
 }
 .nav-item-current{
@@ -89,68 +118,6 @@ h1{
 	transition: all 1s;
 
 }
-
-#one{
-	background-image: url(smallpic1.jpg);
-	background-repeat: no-repeat;
-	width: 290px;
-	height: 210px;
-	margin-top: 55px;
-	margin-right: 50px;
-	margin-left: 50px;
-	transition: all 1s;
-	
-	border-radius: 10%;
-	-webkit-box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-	-moz-box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-	box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-
-
-}
-#two{
-	background-image: url(smallpic2.jpg);
-	background-repeat: no-repeat;
-	width: 290px;
-	height: 210px;
-	margin-top: 55px;
-	margin-right: 50px;
-	margin-left: 50px;
-	transition: all 1s;
-	border-radius: 10%;
-	-webkit-box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-	-moz-box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-	box-shadow: 2px -1px 15px 11px rgba(161,158,161,1);
-}
-
-#one:hover ,#two:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-#btn{
-	margin-top: 0px;
-	width: 290px;
-	height: 170px;
-	opacity: 0;
-	
-}
-
-#btntext{
-	font-size: 25px;
-	text-align: center;
-	padding-top: 0;
-	margin-top: 0px;
-	border: 3px solid grey;
-	border-color: white;
-	border-radius: 15px;
-	font-family: 'Libre Baskerville', fantasy, serif;
-	transition: all 1s;
-	border-bottom: 3px solid black;
-	border-right: 3px solid black;
-	border-left: 3px solid black;
-}
-
-
 
 
 ::-webkit-scrollbar{

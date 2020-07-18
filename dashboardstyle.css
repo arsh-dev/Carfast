@@ -1,0 +1,84 @@
+
+*{
+  background-color: #6833c4;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 15px;
+font-family: "Trebuchet MS",'Libre Baskerville', fantasy, sans-serif;
+width: 100%;
+color: #0829F5;
+font-family: monospace;
+color: white;
+font-size: 25px;
+text-align: center;
+}
+th {
+background-color: #668DEE;
+color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+#footerr{
+ 
+  
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #6833c4;
+  text-align: center;
+}
+
+#footerr input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 20px;
+}
+#footerr input[type = "submit"]:hover{
+  background: darkgrey;
+  width: 350px;
+  color: black;
+  font-size: 1.5em;
+}
+h1{
+  border-color: white;
+  border-radius: 15px;
+  background-color: white;
+  padding-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 3em;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  text-shadow: 1px 1px lightgrey;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+  box-shadow: 7px 7px 8px grey;
+  color: white;
+  letter-spacing: 2px;
+ 
+}

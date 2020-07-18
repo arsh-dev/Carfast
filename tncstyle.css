@@ -6,10 +6,6 @@
   	animation-duration: 1s; /* don't forget to set a duration! */
  
 }
-body{
-	animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
-  	animation-duration: 1s; /* don't forget to set a duration! */
-}
 h1{
   	border-color: white;
 	border-radius: 15px;
@@ -33,10 +29,35 @@ h1{
 	margin-right: 5%;
 	letter-spacing: 2px;
 	
+}
+h2{
+	border-color: white;
+	border-radius: 15px;
+	background-color: #c0fcbb;
+	padding-top: 15px;
+	font-family: 'Libre Baskerville', fantasy, serif;
+	font-size: 1.5em;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	text-shadow: 2px 2px lightgrey;
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	justify-content: center;
+	box-shadow: 7px 7px 8px grey;
+	transition: all 1s;
+
+	margin-left: 5%;
+	margin-right: 5%;
 	
+	letter-spacing: 2px;
+	animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 1s; /* don't forget to set a duration! */
 }
 .nav-item-current{
-	padding: 15px;
+	padding: 5px;
 	display: inline-block;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -54,7 +75,7 @@ h1{
 	cursor: pointer;
 }
 .nav-item{
-	padding: 15px;
+	padding: 5px;
 	display: inline-block;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -97,7 +118,6 @@ h1{
 	height: 210px;
 	margin-top: 55px;
 	margin-right: 50px;
-	margin-left: 50px;
 	transition: all 1s;
 	
 	border-radius: 10%;
@@ -113,7 +133,6 @@ h1{
 	width: 290px;
 	height: 210px;
 	margin-top: 55px;
-	margin-right: 50px;
 	margin-left: 50px;
 	transition: all 1s;
 	border-radius: 10%;
